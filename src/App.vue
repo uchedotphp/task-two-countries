@@ -8,14 +8,21 @@
         below
       </p>
       <el-button>el-button</el-button>
+      <SelectDestination />
+      <DestinationDetails />
     </div>
   </div>
 </template>
 
 <script>
+import SelectDestination from "@/components/SelectDestination";
+import DestinationDetails from "@/components/DestinationDetails";
 export default {
   name: "app",
-  components: {},
+  components: {
+    SelectDestination,
+    DestinationDetails,
+  },
 };
 </script>
 
