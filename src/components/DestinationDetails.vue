@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <p>
+      This is the destination details
+    </p>
+  </div>
 </template>
 
 <script>
