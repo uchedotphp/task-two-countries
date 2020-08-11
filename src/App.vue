@@ -25,8 +25,8 @@ export default {
   name: "app",
   components: {
     SelectDestination,
-    DestinationDetails
-  }
+    DestinationDetails,
+  },
 };
 </script>
 
@@ -44,6 +44,7 @@ export default {
 body {
   background: url("./assets/world-map.jpg") no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 #app {
